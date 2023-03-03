@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C761EF8329B29C59007679B0 /* Divvi2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C761EF8129B29C59007679B0 /* Divvi2.xcdatamodeld */; };
 		C7BE87C929B295DC001AC58E /* Divvi2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BE87C829B295DC001AC58E /* Divvi2App.swift */; };
 		C7BE87CB29B295DC001AC58E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BE87CA29B295DC001AC58E /* ContentView.swift */; };
 		C7BE87CD29B295DC001AC58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BE87CC29B295DC001AC58E /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C761EF8229B29C59007679B0 /* Divvi2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Divvi2.xcdatamodel; sourceTree = "<group>"; };
 		C7BE87C529B295DC001AC58E /* Divvi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Divvi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BE87C829B295DC001AC58E /* Divvi2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divvi2App.swift; sourceTree = "<group>"; };
 		C7BE87CA29B295DC001AC58E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				C7BE87C829B295DC001AC58E /* Divvi2App.swift */,
 				C7BE87CA29B295DC001AC58E /* ContentView.swift */,
+				C761EF8129B29C59007679B0 /* Divvi2.xcdatamodeld */,
 				C7BE87CC29B295DC001AC58E /* Assets.xcassets */,
 				C7BE87CE29B295DC001AC58E /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C761EF8329B29C59007679B0 /* Divvi2.xcdatamodeld in Sources */,
 				C7BE87CB29B295DC001AC58E /* ContentView.swift in Sources */,
 				C7BE87C929B295DC001AC58E /* Divvi2App.swift in Sources */,
 			);
@@ -339,6 +343,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C761EF8129B29C59007679B0 /* Divvi2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C761EF8229B29C59007679B0 /* Divvi2.xcdatamodel */,
+			);
+			currentVersion = C761EF8229B29C59007679B0 /* Divvi2.xcdatamodel */;
+			path = Divvi2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C7BE87BD29B295DC001AC58E /* Project object */;
 }
